@@ -7,4 +7,6 @@ from time import sleep
 import os  
 
 
-print("Hello World versie2!")
+print("Hello World versie3!")
+time.sleep(5)
+
