@@ -7,7 +7,7 @@ from time import sleep
 import os  
 import shutil
 
-print("Hello World versie6!")
+print("Hello World versie7!")
 print("Sleeping for 5 seconds")
 time.sleep(5)
 
