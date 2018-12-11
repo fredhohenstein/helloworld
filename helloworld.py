@@ -15,7 +15,7 @@ print("Sleeping for 5 seconds")
 time.sleep(5)
 
 cwd = os.getcwd()
-print(cwd)
+print("Current directory", cwd)
 
 print("Sleeping for 2 seconds")
 time.sleep(2)
