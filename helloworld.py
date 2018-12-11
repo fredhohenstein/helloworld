@@ -7,9 +7,13 @@ from time import sleep
 import os  
 import shutil
 
-print("Hello World versie8!")
+print("Hello World versie9!")
 print("Sleeping for 5 seconds")
 time.sleep(5)
+
+for entry in os.scandir('.'):
+    if entry.is_file():
+        print(entry.name)
 
 with open("version", "r") as f:
     shutil.copyfileobj(f, sys.stdout)
