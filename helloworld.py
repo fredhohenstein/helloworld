@@ -7,11 +7,11 @@ from time import sleep
 import os  
 import shutil
 
-print("Hello World versie7!")
+print("Hello World versie8!")
 print("Sleeping for 5 seconds")
 time.sleep(5)
 
-with open(".\version", "r") as f:
+with open("version", "r") as f:
     shutil.copyfileobj(f, sys.stdout)
 
 print("Sleeping for 2 seconds")
