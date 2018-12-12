@@ -8,7 +8,7 @@ import os
 import shutil
 
 
-print("Hello World!")
+print("Hello World! voor Luuk")
 with open("d:\\runpyprograms\\helloworld\\version", "r") as f:
     shutil.copyfileobj(f, sys.stdout)
 
