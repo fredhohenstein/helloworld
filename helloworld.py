@@ -9,7 +9,7 @@ import shutil
 
 
 print("Hello World! voor Luuk Krijen en Fred Hohenstein")
-with open("d:\\runpyprograms\\helloworld\\version", "r") as f:
+with open("C:\\D-Disk\\_DevOps\\helloworld\\version", "r") as f:
     shutil.copyfileobj(f, sys.stdout)
 
 print("Sleeping for 5 seconds")
