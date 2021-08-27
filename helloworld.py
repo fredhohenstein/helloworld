@@ -8,7 +8,7 @@ import os
 import shutil
 
 
-print("Hello World! voor Luuk Krijen en Fred Hohenstein")
+print("Hello World! voor Fred Hohenstein en anderen!!")
 with open("C:\\D-Disk\\_DevOps\\helloworld\\version", "r") as f:
     shutil.copyfileobj(f, sys.stdout)
 
